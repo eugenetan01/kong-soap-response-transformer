@@ -8,7 +8,7 @@
 docker-compose up -d
 ```
 
-#### To rebuild an image after making changes to authservice etc
+#### To rebuild an image after making changes to soap-custom-service etc
 
 ```sh
 docker-compose down
