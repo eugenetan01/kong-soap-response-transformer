@@ -101,9 +101,8 @@ function plugin:body_filter()
       return
   end
 
-  ngx.arg[2] = true
-      kong.log.err("Transformed response body successfully: ", ngx.arg[1])
-
+  --ngx.arg[2] = true
+  kong.log.err("Transformed response body successfully: ", ngx.arg[1])
 
   end
 end
